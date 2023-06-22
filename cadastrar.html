@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+	   
+        .meu-botao {
+     background-color: #FF0000;
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     transition-duration: 0.4s;
+   }
+ 
+   .meu-botao:hover {
+     background-color: #454343;
+     color: white;
+   }
+   </style>
+   <style>
+     a {
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-decoration:none;
+      font-size: 20;
+    }
+    form{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    h1{
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40pt;
+    }
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Cadastrar</title>
+</head>
+<body bgcolor="black" link="white" vlink="black">
+    <h1 align="center"><font color="red">Cadastre-se</font></h1>
+    <br>
+    <br>
+    <form method="POST" action="http://www.meuservidor.com/cadastro.php">
+        
+        <Font color="red">Digite seu Nome</Font> <input type="text"> <input type="reset" name="botao2" value="Limpar"> <br><br><hr color="red"><br>
+        <font color="red"> Qual seu sexo ?  <input type="radio" name="sexo" value="M" checked> Masculino</font>
+        <font color="red"><input type="radio" name="sexo" value="F" checked> Feminino</font><br><br><hr color="red"><br>
+        <Font color="red">Digite seu email</Font> <input type="email"> <input type="reset" name="botao2" value="Limpar"><br><br> <hr color="red"><br>
+        <Font color="red">Digite seu Apelido</Font> <input type="text"> <input type="reset" name="botao2" value="Limpar"><br><br><hr color="red"><br>
+        
+        <Font color="red">Digite sua Senha</Font> <input type="password"> <input type="reset" name="botao2" value="Limpar"><br><br><hr color="red">
+        <Font color="red"> Deseja receber notificações ?</Font><input type="checkbox" name="nome_checkbox2" value="valor2"><br><br>
+        <font color="red"> <input type="submit" name="botao" value="Enviar Dados" size="10" ></font>
+       </form>
+       <br>
+       <br>
+       <button class="meu-botao"><a href="index.html"> Voltar </a> </button>
+    
+</body>
+</html>
